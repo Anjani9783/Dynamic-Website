@@ -26,7 +26,7 @@ if ($result == 1)
 	echo "Already login" ;
 	}
 	else{
-		$login = "INSERT INTO kanchan1(name ,password) VALUES ('$username','$password') ";
+		$login = "INSERT INTO Anjani1(name ,password) VALUES ('$username','$password') ";
 		mysqli_query($conn, $login);
 		echo "<h1>Registration Successful</h1>";
 	}
