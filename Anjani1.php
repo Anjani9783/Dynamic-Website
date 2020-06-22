@@ -9,13 +9,13 @@ $password = "";
 
 $conn = new mysqli($servername,$username,$password);
 
-	mysqli_select_db($conn,"kanchan");
+	mysqli_select_db($conn,"Anjani");
 
 	$username = $_POST['user'];
     $password = $_POST['pass'];
 
 
-$s = "SELECT * FROM kanchan WHERE user = '$username' ";
+$s = "SELECT * FROM Anjani WHERE user = '$username' ";
 $result = mysqli_query($conn,$s);
 
 
